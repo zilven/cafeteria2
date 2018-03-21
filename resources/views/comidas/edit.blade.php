@@ -19,6 +19,8 @@
         <input type="text" name="txtNombre" value="{{$comida->nombre}}">
         <label>Precio:</label>
         <input type="text" name="txtPrecio" value="{{$comida->precio}}">
+        <label>Descripcion:</label>
+        <input type="text" name="txtDescripcion" value="{{$comida->descripcion}}">
         <button type="submit">Actualizar comida</button>
     </form>
 
